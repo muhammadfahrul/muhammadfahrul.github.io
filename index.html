@@ -1,70 +1,102 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio Fahrul</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="hero">
-    <div class="container">
-      <h1>Fahrul</h1>
-      <p>Continuous Improvement Engineer | Web Developer</p>
-      <a href="#contact" class="btn">Hubungi Saya</a>
-    </div>
-  </header>
-
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Tentang Saya</h2>
-      <p>Saya adalah seorang Continuous Improvement Engineer dengan ketertarikan besar terhadap pengembangan web dan otomasi sistem. Fokus saya adalah efisiensi, inovasi, dan kemudahan pengguna.</p>
-    </div>
-  </section>
-
-  <section id="projects" class="section bg-light">
-    <div class="container">
-      <h2>Proyek</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Skripsi KKN App</h3>
-          <p>Platform manajemen KKN bagi mahasiswa dan dosen. Laravel + MySQL.</p>
-          <a href="https://github.com/username/skripsi-kkn" target="_blank">Lihat di GitHub</a>
-        </div>
-        <div class="card">
-          <h3>System Monitor</h3>
-          <p>Aplikasi pemantauan performa server berbasis web.</p>
-          <a href="https://github.com/username/system-monitor" target="_blank">Lihat di GitHub</a>
-        </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Fahrul - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="bg-gray-900 text-white py-6 text-center">
+      <h1 class="text-3xl font-bold">Muhammad Fahrul</h1>
+      <p class="text-sm">Software Engineer | Continuous Improvement Engineer</p>
+      <div class="mt-2 space-x-4">
+        <a href="mailto:muhammadfahrul481@gmail.com" class="text-blue-400 hover:underline">Email</a>
+        <a href="https://github.com/muhammadfahrul" class="text-blue-400 hover:underline">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-fahrul-6255b2195" class="text-blue-400 hover:underline">LinkedIn</a>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Keahlian</h2>
-      <ul class="skills">
-        <li>Laravel</li>
-        <li>PHP</li>
-        <li>JavaScript</li>
-        <li>Vue.js</li>
-        <li>MySQL</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-  </section>
+    <main class="max-w-4xl mx-auto p-6 space-y-8">
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Profile</h2>
+        <p>
+          Software Engineer with over four years of experience delivering innovative and robust backend solutions.
+          Currently serving as a Continuous Improvement Engineer. Passionate about clean architecture,
+          automation, and scaling backend infrastructure.
+        </p>
+      </section>
 
-  <section id="contact" class="section bg-light">
-    <div class="container">
-      <h2>Kontak</h2>
-      <p>Email: <a href="mailto:fahrul@example.com">fahrul@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a></p>
-    </div>
-  </section>
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Experience</h2>
+        <div class="mb-4">
+          <h3 class="font-bold">PT Multidaya Dinamika – Continuous Improvement Engineer</h3>
+          <p class="text-sm text-gray-600">Jan 2025 – Present</p>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm">
+            <li>Implement Lean, Six Sigma, Kaizen improvement methods</li>
+            <li>Conduct audits and process analysis for optimization</li>
+            <li>Lead continuous improvement projects with cross-functional teams</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold">PT Multidaya Dinamika – Software Engineer</h3>
+          <p class="text-sm text-gray-600">Sep 2020 – Dec 2024</p>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm">
+            <li>Build and maintain backend services using PHP, Go, JavaScript</li>
+            <li>Collaborate with teams to design scalable software architecture</li>
+            <li>Perform unit testing, integration testing, and document systems</li>
+          </ul>
+        </div>
+      </section>
 
-  <footer>
-    <p>&copy; 2025 Fahrul. Dibuat dengan ❤️ dan HTML/CSS.</p>
-  </footer>
-</body>
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Education & Courses</h2>
+        <ul class="list-disc pl-5 space-y-1 text-sm">
+          <li><strong>SMKN 10 Jakarta</strong> – Jun 2017 to Jun 2020</li>
+          <li><strong>Refactory – Programming Bootcamp</strong> – Jun 2020 to Aug 2020</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Internship</h2>
+        <p class="text-sm">
+          <strong>CV Smartsoft Studio</strong> – Web Developer (Jan 2019 – Mar 2019)
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Skills</h2>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="bg-gray-200 px-3 py-1 rounded">PHP</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Laravel</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Lumen</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Go</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Gin</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">JavaScript</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Node.js</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">NestJS</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">AdonisJs</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">React.js</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Next.js</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">PostgreSQL</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">MongoDB</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Docker</span>
+          <span class="bg-gray-200 px-3 py-1 rounded">Redis</span>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold border-b pb-1 mb-3">Contact</h2>
+        <p class="text-sm"><strong>Email:</strong> muhammadfahrul481@gmail.com</p>
+        <p class="text-sm"><strong>Phone:</strong> 0821-1320-9581</p>
+        <p class="text-sm"><strong>Location:</strong> Jakarta, Indonesia</p>
+        <p class="text-sm"><strong>Born:</strong> 08 February 2002</p>
+        <p class="text-sm"><strong>License:</strong> A & C</p>
+      </section>
+    </main>
+
+    <footer class="text-center text-xs text-gray-500 py-6">
+      &copy; 2025 Muhammad Fahrul. All rights reserved.
+    </footer>
+  </body>
 </html>
