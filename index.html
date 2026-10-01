@@ -1,67 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Muhammad Fahrul - Resume</title>
-      <style>
-         body{font-family:Arial,sans-serif;max-width:1000px;margin:0 auto;padding:30px;background:#f5f5f5;color:#333}
-         .container{background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
-         h1{margin-bottom:5px}
-         h2{border-bottom:2px solid #ddd;padding-bottom:6px;margin-top:28px}
-         .contact{line-height:1.8}
-         .job{margin-bottom:20px}
-         .date{color:#666;font-size:.95em}
-         ul{padding-left:20px}
-      </style>
-   </head>
-   <body>
-      <div class="container">
-         <h1>Muhammad Fahrul</h1>
-         <div class="contact">
-            <p>📍 Jakarta, Indonesia<br>
-               ✉️ muhammadfahrul481@gmail.com<br>
-               <a href="https://github.com/muhammadfahrul" target="_blank">GitHub</a> |
-               <a href="https://www.linkedin.com/in/muhammad-fahrul-6255b2195" target="_blank">LinkedIn</a>
-            </p>
-         </div>
-         <h2>Profile</h2>
-         <p>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Muhammad Fahrul — software engineer based in Jakarta. Experience across backend, frontend, cloud infrastructure, and technical support.">
+<meta name="theme-color" content="#19382d">
+<title>Muhammad Fahrul — Software Engineer</title>
+<style>
+:root{--paper:#f7f8f2;--ink:#19382d;--muted:#65736b;--line:#dde3d9;--accent:#cce888;--white:#fff;--serif:Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:15px;line-height:1.7}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid #7ca642;outline-offset:5px}.wrap{max-width:1120px;margin:auto;padding:0 40px}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:96px;border-bottom:1px solid var(--line)}.brand{font-weight:800;font-size:21px;letter-spacing:-1px}.brand span{color:#759844}.nav-links{display:flex;gap:30px;align-items:center;font-size:13px;font-weight:600}.nav-links a:hover{color:#72923e}.print{border:1px solid var(--line);background:transparent;border-radius:100px;padding:9px 18px;cursor:pointer;color:var(--ink)}.print:hover{background:var(--accent)}.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:60px;padding:84px 0 74px;align-items:center}.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:2px;font-weight:700;display:flex;align-items:center;gap:10px}.dot{width:7px;height:7px;border-radius:50%;background:#719148}h1{font-size:clamp(48px,6.6vw,78px);line-height:1.05;letter-spacing:-4px;margin:24px 0}h1 span{font-family:var(--serif);font-weight:400;font-style:italic}.intro{font-size:17px;max-width:430px;color:var(--muted);margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;padding:12px 21px;border-radius:7px;background:var(--ink);color:white;font-size:13px;font-weight:600;transition:transform .2s}.button:hover{transform:translateY(-3px)}.button.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}.portrait{min-height:340px;border-radius:16px;background:#e9eddf;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.portrait:before,.portrait:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #cbd4bc;border-radius:50%;transform:translate(70px,-75px)}.portrait:after{width:400px;height:400px;transform:translate(70px,-75px)}.monogram{font-family:var(--serif);font-size:130px;font-style:italic;letter-spacing:-12px;position:relative;z-index:1}.portrait-label{position:absolute;bottom:22px;left:24px;right:24px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:1.5px;text-transform:uppercase}.specialties{display:flex;flex-wrap:wrap;gap:14px 30px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;font-size:12px;font-weight:600}.specialties span:before{content:"✦";color:#839c58;margin-right:10px}.section{padding:65px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:250px 1fr;gap:40px}.section-label{font-size:10px;color:var(--muted);letter-spacing:2px;font-weight:700;text-transform:uppercase;margin:0 0 10px}h2{font-size:30px;line-height:1.2;letter-spacing:-1px;margin:0}h2 em{font-family:var(--serif);font-weight:400}.profile p{margin:0;color:var(--muted);font-size:17px;line-height:1.9}.skill-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.skill-card{border:1px solid var(--line);border-radius:10px;background:#fcfdf9;padding:20px}.skill-card h3{font-size:13px;margin:0 0 12px}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;color:#52634f;background:#eef1e7;padding:3px 9px;border-radius:5px}.job{position:relative;border-left:1px solid var(--line);padding:0 0 30px 28px}.job:last-child{padding-bottom:0}.job:before{content:"";position:absolute;width:9px;height:9px;background:#7f9a57;border:3px solid var(--paper);box-shadow:0 0 0 1px #aabd96;border-radius:50%;left:-5px;top:8px}.job-head{display:flex;align-items:start;justify-content:space-between;gap:15px}.job h3{font-size:16px;line-height:1.4;margin:0 0 5px;letter-spacing:-.2px}.company{font-size:13px;color:var(--muted)}.date{font-size:10px;white-space:nowrap;background:#eaf0df;padding:4px 9px;border-radius:4px}.job p{font-size:13px;color:var(--muted);margin:12px 0 0;line-height:1.85}.education{display:flex;align-items:center;justify-content:space-between;gap:20px}.education h3{margin:0;font-size:17px}.education p{margin:3px 0;color:var(--muted);font-size:13px}.contact-panel{margin:60px 0 30px;padding:42px;border-radius:12px;background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;align-items:center;gap:25px}.contact-panel h2{font-size:36px;margin:8px 0 12px}.contact-panel .section-label{color:#b9c9b5}.contact-panel p{color:#c3d0c6;margin:0;font-size:13px}.contact-panel .button{background:var(--accent);color:var(--ink);flex-shrink:0}footer{padding:0 0 28px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.socials{display:flex;gap:22px}.socials a:hover{text-decoration:underline}
+@media(max-width:800px){.wrap{padding:0 24px}.hero{gap:30px;padding:55px 0}.portrait{min-height:290px}.section{grid-template-columns:180px 1fr;gap:25px}.job-head{flex-direction:column;gap:8px}.contact-panel{padding:30px}h1{letter-spacing:-2.5px}}
+@media(max-width:600px){.nav{min-height:78px}.nav-links{gap:15px}.nav-links .desktop-link{display:none}.hero{grid-template-columns:1fr;gap:35px;padding:42px 0}.portrait{min-height:230px}.monogram{font-size:105px}.hero h1{font-size:57px}.section{grid-template-columns:1fr;gap:25px;padding:42px 0}.skill-grid{gap:10px}.skill-card{padding:15px}.contact-panel{flex-direction:column;align-items:flex-start;margin-top:42px;padding:28px}.contact-panel h2{font-size:30px}.education{align-items:flex-start}footer{flex-direction:column;gap:10px}.intro{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+@media print{body{background:white;font-size:11px}.wrap{max-width:none;padding:0}.nav,.portrait,.actions,.specialties,.contact-panel,.print{display:none}.hero{display:block;padding:15px 0 20px}h1{font-size:36px;margin:12px 0;letter-spacing:-1px}.intro{margin:0;max-width:none}.section{padding:20px 0;grid-template-columns:150px 1fr;gap:20px}h2{font-size:22px}.profile p{font-size:12px}.skill-card{padding:10px;break-inside:avoid}.job{break-inside:avoid;padding-bottom:18px}.job p{font-size:11px}.job-head{flex-direction:row}.tag{font-size:10px}footer{margin-top:20px}.print-contact{display:block!important}}.print-contact{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="nav"><a class="brand" href="#home" aria-label="Muhammad Fahrul home">fahrul<span>.</span></a><nav class="nav-links" aria-label="Main navigation"><a class="desktop-link" href="#about">About</a><a href="#experience">Experience</a><a class="desktop-link" href="#skills">Skills</a><button class="print" type="button" onclick="window.print()">Print CV ↗</button></nav></header>
+<main id="home">
+<section class="hero" aria-labelledby="name"><div><div class="eyebrow"><span class="dot" aria-hidden="true"></span>Software Engineer · Jakarta, ID</div><h1 id="name">Muhammad<br><span>Fahrul.</span></h1><p class="intro">Building reliable software.<br>Turning complex problems into practical solutions.</p><div class="actions"><a class="button" href="mailto:muhammadfahrul481@gmail.com">Get in touch <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/muhammadfahrul" target="_blank" rel="noopener noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></div><p class="print-contact">Jakarta, Indonesia · muhammadfahrul481@gmail.com<br>github.com/muhammadfahrul</p></div><div class="portrait" aria-hidden="true"><span class="monogram">mf.</span><div class="portrait-label"><span>Code. Improve. Support.</span><span>✦</span></div></div></section>
+<div class="specialties" aria-label="Areas of expertise"><span>Backend development</span><span>Frontend engineering</span><span>Cloud & DevOps</span><span>Technical support</span></div>
+<section class="section" id="about"><div><p class="section-label">01 / A little about me</p><h2>Practical thinking.<br><em>Reliable results.</em></h2></div><div class="profile"><p>
             Software engineer skilled at building, scaling, and supporting web applications across backend, frontend, and cloud environments. Experienced in designing APIs, optimizing performance, and automating deployments to improve reliability and maintainability. Strong troubleshooting and root-cause analysis abilities; collaborative with cross-functional teams and focused on delivering pragmatic solutions that meet business goals.
-         </p>
-         <h2>Skills</h2>
-         <ul>
-            <li><strong>Programming:</strong> PHP, JavaScript, Go</li>
-            <li><strong>Backend:</strong> Laravel, Lumen, CodeIgniter, Node.js, NestJS, AdonisJS, Express.js</li>
-            <li><strong>Frontend:</strong> React.js, Next.js</li>
-            <li><strong>Database:</strong> MySQL, PostgreSQL, MongoDB, Redis</li>
-            <li><strong>Cloud & DevOps:</strong> AWS, Google Cloud Platform (GCP), Docker, Jenkins, Ansible, PM2</li>
-            <li><strong>Tools:</strong> Git, CI/CD, REST API, Microservices, Linux, Agile, Scrum</li>
-            <li><strong>Other:</strong> Technical Support, Troubleshooting, RCA, Process Automation, Continuous Improvement</li>
-         </ul>
-         <h2>Education</h2>
-         <p><strong>SMKN 10 Jakarta</strong><br>Jun 2017 – Jun 2020</p>
-         <h2>Employment History</h2>
-         <div class="job">
-            <h3>Web Developer – CV Smartsoft Studio</h3>
-            <div class="date">Jan 2019 – Mar 2019</div>
-            <p>Developed and maintained responsive web features using HTML, CSS, and JavaScript; collaborated with designers and backend developers to deliver projects on schedule; diagnosed and fixed bugs, implemented tests, and supported deployments and documentation to improve release stability and user experience.</p>
-         </div>
-         <div class="job">
-            <h3>Software Engineer – PT Multidaya Dinamika</h3>
-            <div class="date">Sept 2020 – Dec 2024</div>
-            <p>Designed and implemented backend services and frontend components; developed RESTful APIs and modular services, optimized performance, and improved scalability; led code reviews, mentored junior engineers, and enhanced CI/CD pipelines to increase delivery velocity and reduce production incidents.</p>
-         </div>
-         <div class="job">
-            <h3>Continuous Improvement Engineer – PT Multidaya Dinamika</h3>
-            <div class="date">Jan 2025 – Jul 2025</div>
-            <p>Led process-improvement initiatives to increase operational efficiency and reduce waste; analyzed workflows, identified bottlenecks, recommended and implemented practical solutions, and coordinated stakeholders to ensure smooth adoption and measurable gains in throughput and quality.</p>
-         </div>
-         <div class="job">
-            <h3>Technical Support Engineer – PT Inovasi Anak Indonesia</h3>
-            <div class="date">Jul 2025 – Present</div>
-            <p>Provide technical support and troubleshoot software and infrastructure issues for end users; coordinate with engineering and operations teams to resolve incidents and implement lasting fixes. Maintain and improve knowledge base articles and runbooks, track recurring issues, and report trends to reduce repeat incidents and improve service reliability.</p>
-         </div>
-      </div>
-   </body>
+         </p></div></section>
+<section class="section" id="skills"><div><p class="section-label">02 / My toolkit</p><h2>Tools for<br><em>the right job.</em></h2></div><div class="skill-grid"><div class="skill-card"><h3>Programming</h3><div class="tags"><span class="tag">PHP</span><span class="tag">JavaScript</span><span class="tag">Go</span></div></div>
+<div class="skill-card"><h3>Backend</h3><div class="tags"><span class="tag">Laravel</span><span class="tag">Lumen</span><span class="tag">CodeIgniter</span><span class="tag">Node.js</span><span class="tag">NestJS</span><span class="tag">AdonisJS</span><span class="tag">Express.js</span></div></div>
+<div class="skill-card"><h3>Frontend</h3><div class="tags"><span class="tag">React.js</span><span class="tag">Next.js</span></div></div>
+<div class="skill-card"><h3>Database</h3><div class="tags"><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">Redis</span></div></div>
+<div class="skill-card"><h3>Cloud & DevOps</h3><div class="tags"><span class="tag">AWS</span><span class="tag">Google Cloud Platform (GCP)</span><span class="tag">Docker</span><span class="tag">Jenkins</span><span class="tag">Ansible</span><span class="tag">PM2</span></div></div>
+<div class="skill-card"><h3>Tools</h3><div class="tags"><span class="tag">Git</span><span class="tag">CI/CD</span><span class="tag">REST API</span><span class="tag">Microservices</span><span class="tag">Linux</span><span class="tag">Agile</span><span class="tag">Scrum</span></div></div>
+<div class="skill-card"><h3>Other</h3><div class="tags"><span class="tag">Technical Support</span><span class="tag">Troubleshooting</span><span class="tag">RCA</span><span class="tag">Process Automation</span><span class="tag">Continuous Improvement</span></div></div>
+</div></section>
+<section class="section" id="experience"><div><p class="section-label">03 / The journey</p><h2>Experience that<br><em>builds perspective.</em></h2></div><div class="timeline"><article class="job"><div class="job-head"><div><h3>Technical Support Engineer</h3><div class="company">PT Inovasi Anak Indonesia</div></div><span class="date">Jul 2025 – Present</span></div><p>Provide technical support and troubleshoot software and infrastructure issues for end users; coordinate with engineering and operations teams to resolve incidents and implement lasting fixes. Maintain and improve knowledge base articles and runbooks, track recurring issues, and report trends to reduce repeat incidents and improve service reliability.</p></article>
+<article class="job"><div class="job-head"><div><h3>Continuous Improvement Engineer</h3><div class="company">PT Multidaya Dinamika</div></div><span class="date">Jan 2025 – Jul 2025</span></div><p>Led process-improvement initiatives to increase operational efficiency and reduce waste; analyzed workflows, identified bottlenecks, recommended and implemented practical solutions, and coordinated stakeholders to ensure smooth adoption and measurable gains in throughput and quality.</p></article>
+<article class="job"><div class="job-head"><div><h3>Software Engineer</h3><div class="company">PT Multidaya Dinamika</div></div><span class="date">Sept 2020 – Dec 2024</span></div><p>Designed and implemented backend services and frontend components; developed RESTful APIs and modular services, optimized performance, and improved scalability; led code reviews, mentored junior engineers, and enhanced CI/CD pipelines to increase delivery velocity and reduce production incidents.</p></article>
+<article class="job"><div class="job-head"><div><h3>Web Developer</h3><div class="company">CV Smartsoft Studio</div></div><span class="date">Jan 2019 – Mar 2019</span></div><p>Developed and maintained responsive web features using HTML, CSS, and JavaScript; collaborated with designers and backend developers to deliver projects on schedule; diagnosed and fixed bugs, implemented tests, and supported deployments and documentation to improve release stability and user experience.</p></article>
+</div></section>
+<section class="section" id="education"><div><p class="section-label">04 / The foundation</p><h2><em>Education.</em></h2></div><div class="education"><div><h3>SMKN 10 Jakarta</h3><p>Jakarta, Indonesia</p></div><span class="date">Jun 2017 – Jun 2020</span></div></section>
+<section class="contact-panel" aria-labelledby="contact-title"><div><p class="section-label">Let's connect</p><h2 id="contact-title">Have something <em>in mind?</em></h2><p>Reach out to talk software, solve a problem, or exchange ideas.</p></div><a class="button" href="mailto:muhammadfahrul481@gmail.com">Say hello <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer><span>Muhammad Fahrul · Jakarta, Indonesia</span><div class="socials"><a href="https://github.com/muhammadfahrul" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/muhammad-fahrul-6255b2195" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:muhammadfahrul481@gmail.com">Email ↗</a></div></footer>
+</div>
+</body>
 </html>
